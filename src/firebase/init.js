@@ -9,7 +9,6 @@ var config = {
   storageBucket: "fir-chat-c5237.appspot.com",
   messagingSenderId: "815423507231"
 };
-firebase.initializeApp(config);
 
 const firebaseApp = firebase.initializeApp(config);
 firebaseApp.firestore().settings({ timestampsInSnapshots: true })
